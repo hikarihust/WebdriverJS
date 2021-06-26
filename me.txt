@@ -1,0 +1,24 @@
+Prepare
+    sudo apt update
+    sudo apt install nodejs
+    sudo apt install npm
+    npm init
+    sudo npm install -g selenium-webdriver
+    sudo npm install -g chromedriver
+    If "sudo npm install -g chromedriver" command can not install
+    Try this: sudo npm install --unsafe-perm -g chromedriver
+    sudo npm install -g geckodriver 
+        -> Firefox
+    If "sudo npm install -g geckodriver" command can not install
+    Try this: sudo npm install --unsafe-perm -g geckodriver
+    https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs
+    https://www.selenium.dev/selenium/docs/api/javascript/
+    pwd 
+        sample/js/libray.js
+    npm i selenium-webdriver
+    npm i chromedriver
+    node libray.js
+    Error Selenium Nodejs CHROMEDRIVER path
+        https://stackoverflow.com/questions/26191142/selenium-nodejs-chromedriver-path
+        https://akinov.hatenablog.com/entry/2020/11/29/143301
+    
